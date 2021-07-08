@@ -1,0 +1,88 @@
+
+.card {
+    margin: auto;
+    margin-top: 9%;
+    box-shadow: 4px 5px 2px rgba(0, 0, 0, 20%);
+    border-radius: 35px;
+    padding-bottom: 7%;
+    border: none;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    margin-left: 73px;
+    margin-top: 30px;
+}
+
+.teks{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    margin-top: 32px; 
+    color: rgb(61, 61, 61);  
+}
+
+.admin-button{
+    background: #2BA360;
+    margin: auto;
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 30px;
+    box-shadow: 4px 5px 2px rgba(0, 0, 0, 20%);
+}
+
+.teks-admin{
+    margin-top: 4px;
+    color: white;;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    text-align: justify;
+    justify-content: center;
+}
+
+.user-button{
+    background: #3E3E3E;
+    margin: auto;
+    margin-top: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
+    border-radius: 30px;
+    box-shadow: 4px 5px 2px rgba(0, 0, 0, 20%);
+}
+
+.teks-user{
+    margin-top: 4px;
+    color: white;;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    text-align: justify;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .card {
+        margin: auto;
+        margin-top: 50%;
+        box-shadow: 4px 5px 2px rgba(0, 0, 0, 20%);
+        border-radius: 35px;
+        padding-bottom: 11%;
+        padding-top: 11%;
+        border: none;
+    }
+}
+
+
+
+@media only screen and (width: 540px){
+
+    .card {
+        margin: auto;
+        margin-top: 30%;
+        box-shadow: 4px 5px 2px rgba(0, 0, 0, 20%);
+        border-radius: 35px;
+        padding-bottom: 7%;
+        border: none;
+    }
+}

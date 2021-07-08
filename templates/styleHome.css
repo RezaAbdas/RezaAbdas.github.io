@@ -1,0 +1,174 @@
+/* HEADER */
+/* megnatur judul apoteku */
+div.judul{
+    text-align: center;
+    margin-top: 23px;
+}
+/* akhir mengatur judul apoteku */
+
+
+/* mengatur warna dan menghilangakan efek link pada judul */
+.link-judul{
+    text-decoration: none;
+    color: #2BA360;
+}
+/* akhir mengatur warna dan menghilangakan efek link pada judul */
+
+/* warna ijo pada judul apoteku */
+h1:hover{
+    color: #2BA360;
+}
+/* akhir warna ijo pada judul apoteku */
+
+/* mengatur box search */
+.searchbox{
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-top: 32px;
+    background:#ffffff;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 25%);
+}
+/* akhir mengatur box search */
+
+
+/* mengatur ikon search di box search */    
+.button-src{
+    color: #616161;
+    margin-left: 96%;
+    margin-top: -4%;
+}
+/* akhir mengatur ikon search di box search */
+
+
+/* mengatur text dalam search box */
+.input{
+    margin-top: -2px;
+    background:none;
+    border: none;
+    outline: none;
+    margin-left: 1%;
+    width: 90%;
+    font-size: medium;
+}
+/* akhirmengatur text dalam search box */
+/* AKHIR HEADER */
+
+
+/* JUMBOTRON */
+
+.gambar .satu{
+    margin-top: 13%;
+    height: 300px;
+    float: left;
+    margin-left: -90%;
+    margin-right: 10%;
+}
+
+.gambar .img-main{
+    margin-top: 6%;
+    margin-left:34px ;
+}
+
+.gambar .tiga{
+    margin-top: 13%;
+    height: 300px;
+    float: right;
+    width: fit-content;
+    margin-left: 99px;
+    margin-right: -90%;
+}
+/* AKHIRJUMBOTRON */
+
+
+
+/* tombol pesananku */
+.tombol-pesananku{
+    margin-top: 3%;
+    background: #2BA360;
+    margin-left: 43%;
+    margin-right: 43%;
+    padding: 1%;
+    border-radius: 34px;
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 25%); 
+}
+
+.gambar-pesanan{
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-top: -10px;
+    margin-right: 8%;
+
+}
+
+h5{
+    margin-top: 4px;
+}
+
+/* paracetamol */
+.card-paracetamol{
+    box-shadow: 5px 6px 6px rgba(0, 0, 0, 15%);
+    border-radius: 35px;
+    margin-left: -40%;
+    margin-right: 2%;
+    margin-top: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: -5%;
+}
+
+.paracetamol-img{
+    margin-left: -70%;
+    width: 250%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+
+}
+
+.button-beli{
+    padding: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #2BA360;
+    border-radius: 45px;
+    float: right;
+    margin-top: -22%;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 25%);
+}
+/* akhir paracetamol */
+
+/* akhir tombol pesananku */
+
+
+/* resposive setting */
+@media  (max-width: 1024px){
+
+    .searchbox{
+        padding-right: -4%;
+        padding-left: 21px;
+        padding-bottom: 1px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .button-src{
+        margin-top: -27px;
+        margin-bottom: 5px;
+        margin-left: 97%;
+        
+    }
+
+    .input{
+        background: rgb(255, 255, 255);
+        width: 90%;
+    }
+
+    .link-judul{
+        text-decoration: none;
+        color: #2BA360;
+    }
+}
